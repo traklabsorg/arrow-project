@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b03c5fb5.chunk.css",
+    "main.js": "/static/js/main.163d1bb6.chunk.js",
+    "main.js.map": "/static/js/main.163d1bb6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.675924b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.675924b1.js.map",
+    "static/js/2.768aec15.chunk.js": "/static/js/2.768aec15.chunk.js",
+    "static/js/2.768aec15.chunk.js.map": "/static/js/2.768aec15.chunk.js.map",
+    "static/js/3.81422594.chunk.js": "/static/js/3.81422594.chunk.js",
+    "static/js/3.81422594.chunk.js.map": "/static/js/3.81422594.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b03c5fb5.chunk.css.map": "/static/css/main.b03c5fb5.chunk.css.map",
+    "static/js/2.768aec15.chunk.js.LICENSE.txt": "/static/js/2.768aec15.chunk.js.LICENSE.txt",
+    "static/media/adyen.6a7caa0c.svg": "/static/media/adyen.6a7caa0c.svg",
+    "static/media/arrow.8e07082f.svg": "/static/media/arrow.8e07082f.svg",
+    "static/media/arrowfooter.6ae7cc51.svg": "/static/media/arrowfooter.6ae7cc51.svg",
+    "static/media/bluecurl.99fc47c3.svg": "/static/media/bluecurl.99fc47c3.svg",
+    "static/media/braintree.cedf094c.svg": "/static/media/braintree.cedf094c.svg",
+    "static/media/cat.2a4d6604.svg": "/static/media/cat.2a4d6604.svg",
+    "static/media/cybersource.593e8d63.svg": "/static/media/cybersource.593e8d63.svg",
+    "static/media/device.661aea1b.png": "/static/media/device.661aea1b.png",
+    "static/media/drink.b63c86bc.svg": "/static/media/drink.b63c86bc.svg",
+    "static/media/facebook.cb99ef7a.svg": "/static/media/facebook.cb99ef7a.svg",
+    "static/media/greenhex.c26eff24.svg": "/static/media/greenhex.c26eff24.svg",
+    "static/media/instagram.cbf97fa2.svg": "/static/media/instagram.cbf97fa2.svg",
+    "static/media/ipay.58b76b3b.svg": "/static/media/ipay.58b76b3b.svg",
+    "static/media/linkedin.21a042fd.svg": "/static/media/linkedin.21a042fd.svg",
+    "static/media/redspiral.f1c2e321.svg": "/static/media/redspiral.f1c2e321.svg",
+    "static/media/stripe.acbb783e.svg": "/static/media/stripe.acbb783e.svg",
+    "static/media/submenu.608824e0.svg": "/static/media/submenu.608824e0.svg",
+    "static/media/text.e01bf2b6.svg": "/static/media/text.e01bf2b6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.675924b1.js",
+    "static/js/2.768aec15.chunk.js",
+    "static/css/main.b03c5fb5.chunk.css",
+    "static/js/main.163d1bb6.chunk.js"
+  ]
+}
