@@ -6,11 +6,12 @@ interface Props {
   heading?: string;
   title?: string;
   subTitle?: string;
+  titleColor?: string;
 }
 
-function HeadingComponent({ color, heading, title, subTitle }: Props) {
+function HeadingComponent({ color, heading, title, subTitle, titleColor }: Props) {
   return (
-    <StyledHeadingComponent color={color}>
+    <StyledHeadingComponent color={color} titleColor={titleColor}>
       <div className="heading">
         <div className="title">{heading}</div>
         <div className="sub-title">

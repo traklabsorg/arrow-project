@@ -3,11 +3,12 @@ import { device } from "../../constants/screensize/ScreenSize";
 
 type StyledHeadingComponent = {
   color?: string;
+  titleColor?: string;
 };
 
 export const StyledHeadingComponent = styled.div<StyledHeadingComponent>`
-  color: ${(props) => props.color};
   margin-bottom: 10px;
+  color: ${(props) => props.color};
   .heading {
     .title {
       font-size: 40px;
@@ -27,6 +28,7 @@ export const StyledHeadingComponent = styled.div<StyledHeadingComponent>`
       font-style: normal;
       font-size: 14px;
       letter-spacing: 1px;
+      color: ${(props) => (props.titleColor ? props.titleColor : props.color)};
       @media ${device.laptop} {
         font-size: 12px;
       }
