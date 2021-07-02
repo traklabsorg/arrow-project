@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { color } from "../../../constants/colorscheme/ColorScheme";
 import { device } from "../../../constants/screensize/ScreenSize";
 
 export const StyledHeader = styled.div`
@@ -11,6 +12,16 @@ export const StyledHeader = styled.div`
     height: 10vh;
     font-style: normal;
     font-weight: bold;
+    .hover-highlight {
+      padding: 0px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      &:hover {
+        background: ${color.light.ruby};
+      }
+    }
     .sub-menu-container {
       display: flex;
       align-items: center;

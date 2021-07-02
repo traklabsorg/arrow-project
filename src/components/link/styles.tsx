@@ -15,7 +15,8 @@ export const StyledLink = styled.div<StyledLinkType>`
   transition: 0.3s;
   &:hover {
     transition: 0.3s;
-    color: ${(props) => (props.hoverColor ? props.hoverColor : color.light.black)};
+    color: ${(props) =>
+      props.hoverColor ? props.hoverColor : color.light.black};
   }
   @media ${device.laptop} {
     font-size: 15px;
