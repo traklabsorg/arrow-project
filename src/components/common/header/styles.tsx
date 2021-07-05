@@ -12,6 +12,7 @@ export const StyledHeader = styled.div`
     height: 10vh;
     font-style: normal;
     font-weight: bold;
+
     .hover-highlight {
       padding: 0px 20px;
       display: flex;

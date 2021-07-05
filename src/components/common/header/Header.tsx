@@ -12,12 +12,13 @@ function Header({}: Props): ReactElement {
     <StyledHeader>
       <div className="header-container">
         <img alt="Arrow" src={arrowLogo}></img>
-        <CustomLink
-          className="hide hover-highlight"
-          text={"Shop with Arrow"}
-          hoverColor={color.light.white}
-          color={color.light.grey}
-        />
+
+          <CustomLink
+            className="hide hover-highlight"
+            text={"Shop with Arrow"}
+            hoverColor={color.light.white}
+            color={color.light.grey}
+          />
         <CustomLink
           className="hide hover-highlight"
           text={"Sell with Arrow"}
