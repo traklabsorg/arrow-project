@@ -8,7 +8,7 @@ export const StyledWelcomeSection = styled.div`
   align-items: center;
   justify-content: space-between;
   .column-one {
-    padding: 10px 0px;
+    padding: 2% 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -18,14 +18,15 @@ export const StyledWelcomeSection = styled.div`
       display: flex;
       align-items: center;
       justify-content: space-between;
+      width: 100%;
       .underline {
-        margin-top: 10px;
+        margin-top: 0.625em;
         cursor: pointer;
         text-decoration-line: underline;
       }
       @media ${device.laptop} {
         height: 40%;
-        font-size: 15px;
+        font-size: 1em;
         flex-direction: column;
         justify-content: space-around;
       }
@@ -38,6 +39,7 @@ export const StyledWelcomeSection = styled.div`
     display: flex;
     flex-wrap: wrap;
     width: 46%;
+    height: 100%;
   }
   @media ${device.laptop} {
     .column-one {

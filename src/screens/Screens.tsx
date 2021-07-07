@@ -4,6 +4,7 @@ import Footer from "../components/common/footer/Footer";
 import Header from "../components/common/header/Header";
 import HomeScreen from "./homescreen/HomeScreen";
 import PartnerScreen from "./partnerscreen";
+import PriceScreen from "./pricingscreen";
 
 interface Props {}
 
@@ -16,10 +17,10 @@ export default function Screens({}: Props): ReactElement {
           <Route exact path="/">
             <HomeScreen />
           </Route>
-          <Route exact path="/pricing">
-            <HomeScreen />
+          <Route path="/pricing">
+            <PriceScreen />
           </Route>
-          <Route exact path="/partners">
+          <Route path="/partners">
             <PartnerScreen />
           </Route>
         </Switch>

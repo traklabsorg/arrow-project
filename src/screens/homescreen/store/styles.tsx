@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { color } from "../../../constants/colorscheme/ColorScheme";
 import { device } from "../../../constants/screensize/ScreenSize";
 
 export const StyledStoreSection = styled.div`
@@ -6,7 +7,7 @@ export const StyledStoreSection = styled.div`
   height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   .column-one {
     padding: 10px 0px;
     display: flex;
@@ -19,21 +20,48 @@ export const StyledStoreSection = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     .items {
-        img {
-            width: 75%
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 1%;
+      width: 13vw;
+      height: 9vw;
+      .item-text {
+        font-weight: 800;
+        font-size: 1.625em;
+        line-height: 2.1875em;
+        color: ${color.light.ruby};
+      }
+      img {
+        width: 75%;
+      }
+      @media ${device.laptop} {
+        width: 20vw;
+        .item-text {
+          font-size: 1.3em;
+          line-height: 2em;
         }
-        @media ${device.laptop} {
         img {
-            width: 70%
+          width: 70%;
         }
       }
       @media ${device.mobileL} {
+        margin: 5%;
+        width: 40vw;
+        height: 100%;
+        .item-text {
+          font-size: 1em;
+          line-height: 1.5em;
+        }
         img {
-            width: 55%
+          width: 40%;
         }
       }
+    }
+    @media ${device.mobileL} {
+      flex-direction: column;
     }
   }
   @media ${device.laptop} {

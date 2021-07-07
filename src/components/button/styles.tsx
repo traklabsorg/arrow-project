@@ -10,7 +10,8 @@ export const StyledButton = styled.button<StyledButtonType>`
   background: ${(props) => props.color};
   cursor: pointer;
   height: 2.5rem;
-  padding: 0px 45px;
+  text-align: center;
+  padding: 0 1em;
   border: none;
   border-radius: 15px;
   color: white;
@@ -22,8 +23,8 @@ export const StyledButton = styled.button<StyledButtonType>`
     background-color: ${color.light.black};
   }
   @media ${device.laptop} {
-    height: 40px;
-    font-size: 15px;
+    height: 2.5em;
+    font-size: 0.9em;
   }
   @media ${device.mobileL} {
   }

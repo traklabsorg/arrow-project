@@ -21,8 +21,8 @@ export const StyledShop = styled.div`
       .heading {
         font-style: normal;
         font-weight: 700;
-        font-size: 35px;
-        line-height: 40px;
+        font-size: 2.1875em;
+        line-height: 2.5em;
       }
       .highlight {
         color: ${color.light.ruby};

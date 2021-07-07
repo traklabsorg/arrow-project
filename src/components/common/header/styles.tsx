@@ -5,16 +5,15 @@ import { device } from "../../../constants/screensize/ScreenSize";
 export const StyledHeader = styled.div`
   padding: 0vh 10vw;
   .header-container {
-    font-size: 18px;
+    font-size: 1.5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 10vh;
     font-style: normal;
     font-weight: bold;
-
     .hover-highlight {
-      padding: 0px 20px;
+      padding: 0 1.25em;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -31,7 +30,7 @@ export const StyledHeader = styled.div`
         display: none;
       }
       @media ${device.laptop} {
-        width: 100px;
+        font-size: 1.2em;
         .un-hide {
           display: block;
         }
@@ -45,10 +44,10 @@ export const StyledHeader = styled.div`
         display: block;
       }
       justify-content: space-between;
-      font-size: 15px;
+      font-size: 1em;
     }
     @media ${device.mobileL} {
-      font-size: 10px;
+      font-size: 1.2em;
     }
   }
 `;

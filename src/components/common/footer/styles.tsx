@@ -10,7 +10,7 @@ export const StyledFooter = styled.div`
     justify-content: center;
     align-items: center;
     .footer-wrapper {
-      font-size: 16px;
+      font-size: 1em;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -29,7 +29,7 @@ export const StyledFooter = styled.div`
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        line-height: 30px;
+        line-height:  1.875em;
         @media ${device.mobileL} {
           justify-content: center;
           flex-direction: column;
@@ -43,8 +43,7 @@ export const StyledFooter = styled.div`
       }
       @media ${device.laptop} {
         img {
-          width: 42px;
-          height: 20px;
+          height: 50%;
         }
       }
     }

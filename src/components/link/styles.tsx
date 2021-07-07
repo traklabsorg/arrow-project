@@ -19,9 +19,9 @@ export const StyledLink = styled.div<StyledLinkType>`
       props.hoverColor ? props.hoverColor : color.light.black};
   }
   @media ${device.laptop} {
-    font-size: 15px;
+    font-size: 0.9375em;
   }
   @media ${device.mobileL} {
-    font-size: 10px;
+    font-size: 0.625em;
   }
 `;

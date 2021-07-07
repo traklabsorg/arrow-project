@@ -25,12 +25,15 @@ export default function StoreSection({}: Props): ReactElement {
       <div className="column-two">
         <div className="items">
           <img src={drinkLogo} alt="Drink" />
+          <div className="item-text">Drink up</div>
         </div>
         <div className="items">
           <img src={textFriend} alt="Drink" />
+          <div className="item-text">Text a friend</div>
         </div>
         <div className="items">
           <img src={catLogo} alt="Cat" />
+          <div className="item-text">Pet a pet</div>
         </div>
       </div>
     </StyledStoreSection>
